@@ -1,0 +1,52 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#navigation-section a{
+    color:white;
+}
+
+.nav-transparan{
+    background-color: transparent;
+}
+
+.text-wide{
+    letter-spacing: 0.1em;
+}
+
+.nav-solid{
+    background-color: white ;
+}
+        
+#navigation-section.nav-solid a{
+    color: black;
+}
+
+#main-section{
+    height: 100vh;
+    background: url("../img/bg4.jpg"); 
+    background-size:cover;
+}
+
+#main-section:after {
+    content: '';
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0; z-index: 1;
+}
+
+.offset-sticky:before {
+  display: block;
+  height: 5rem;
+  margin-top: -5rem;
+  visibility: hidden;
+  content: "";
+}
+
+#pre-register-section{
+    background: url("../img/bg1.jpg") ;
+}
+
+#footer-section{
+    background-color:#0e0149;
+}
